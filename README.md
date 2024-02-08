@@ -9,7 +9,7 @@ This project is to construct a deep forward neural network to solve an image cla
 
 <!-- PROJECT Image -->
 <br/>
-<div align="center">
+<div align="left">
   <img src="images/image-classification.png" alt="Logo" width="500" height="500">
 </div>
 
@@ -46,8 +46,9 @@ In this project we will construct a deep forward neural network to solve an imag
 
 ### Prerequisites
 
-* Basin understanding of python
+* Basic understanding of python
 * Basic knowledge of running python script in IPython environment
+* Basic knowledge of neural network structure
 
 ### Data Source
 
@@ -74,11 +75,20 @@ The script will execute below steps sequencially.
 10. Model fitting
 11. Evaluate the model by test dataset
 12. Plot training accuracy values and training loss values
+<div align="left">
+  <img src="images/model-accuracy.png">
+</div>
 13. Check the training and validation loss
+<div align="left">
+  <img src="images/training-validation-loss.png">
+</div>
 14. Check the model summary
 15. Count the number of parameters
 16. Check the number of activations
 17. Plot the heatmap to review the initial weights of the model
+<div align="left">
+  <img src="images/weights-heat-map.png">
+</div>
 18. Check the training using TensorBoard
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
